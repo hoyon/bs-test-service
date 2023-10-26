@@ -3,5 +3,7 @@ kind: Component
 metadata:
   name: bs-test-service
 spec:
+  type: service
+  lifecycle: experimental
   owner: pumped-squids
 

@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: bs-test-service
+  links:
+    - url: https://github.com/hoyon/bs-test-service
+      title: Github
+      icon: github
 spec:
   type: service
   lifecycle: experimental

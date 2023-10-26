@@ -9,4 +9,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: pumped-squids
-
+  providesApis:
+    - bs-api

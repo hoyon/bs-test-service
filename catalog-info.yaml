@@ -4,6 +4,7 @@ metadata:
   name: bs-test-service
   annotations:
     github.com/project-slug: hoyon/bs-test-service
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental

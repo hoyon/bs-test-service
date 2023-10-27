@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Notes
+  namespace: bs-test-service
+spec:
+  type: elixir-context
+  lifecycle: experimental
+  owner: default/guests
+  system: default/examples
+  subcomponentOf: default/bs-test-service
